@@ -26,7 +26,7 @@ You can either (if using Gradle) [reference the source code as a dependency](htt
 
 ```groovy
 sourceControl {
-    gitRepository("https://github.com/vegvesen/datex-client.git") {
+    gitRepository("https://github.com/svvsaga/datex-client.git") {
         producesModule("no.vegvesen:datex-client")
     }
 }
@@ -51,7 +51,7 @@ Or, you can use [jitpack](https://jitpack.io) as a repository which will automat
 </repository>
 <!-- ... -->
 <dependency>
-  <groupId>com.github.vegvesen</groupId>
+  <groupId>com.github.svvsaga</groupId>
   <artifactId>datex-client</artifactId>
   <version>1.2.0</version>
 </dependency>
@@ -65,7 +65,7 @@ repositories {
     maven { url 'https://jitpack.io' }
 }
 dependencies {
-    implementation 'com.github.vegvesen:datex-client:1.2.0'
+    implementation 'com.github.svvsaga:datex-client:1.2.0'
 }
 ```
 
