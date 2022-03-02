@@ -5,7 +5,7 @@ For more information on DATEX II see https://www.datex2.eu/.
 
 ## How is it made?
 
-[JAXB-RI v 2.3.2](https://github.com/eclipse-ee4j/jaxb-ri) is used to generate POJOs from the official [Datex II v 2.3 Schema](https://datex2.eu/schema/2/2_0/)
+[JAXB-RI v 2.3.2](https://github.com/eclipse-ee4j/jaxb-ri) is used to generate POJOs from [the Datex II v2.0 schema with some extensions.](https://www.vegvesen.no/globalassets/om-oss/om-organisasjonen/data-og-api/schema-and-wsdl.zip)
 
 The following command is used to generate POJOs:
 
@@ -46,14 +46,14 @@ Or, you can use [jitpack](https://jitpack.io) as a repository which will automat
 
 ```xml
 <repository>
-  <id>jitpack</id>
-  <url>https://jitpack.io</url>
+    <id>jitpack</id>
+    <url>https://jitpack.io</url>
 </repository>
-<!-- ... -->
+        <!-- ... -->
 <dependency>
-  <groupId>com.github.svvsaga</groupId>
-  <artifactId>datex-client</artifactId>
-  <version>1.2.0</version>
+<groupId>com.github.svvsaga</groupId>
+<artifactId>datex-client</artifactId>
+<version>1.2.0</version>
 </dependency>
 ```
 
